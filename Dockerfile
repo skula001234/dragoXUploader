@@ -15,6 +15,8 @@ RUN apt-get update && apt-get install -y \
     make \
     g++ \
     cmake \
+    wget \
+    unzip \
  && rm -rf /var/lib/apt/lists/*
 
 # Install Bento4
